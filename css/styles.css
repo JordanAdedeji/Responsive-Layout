@@ -1,0 +1,297 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Varela Round', sans-serif;
+	line-height: 1.6;
+	color: #3a3a3a;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+	margin-bottom: 1.8em;
+  text-align: center;
+  font-weight: 300;
+}
+
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight:200;
+  color: black;
+
+}
+
+span {
+font-weight: bold;
+margin-right: 10px;
+}
+
+
+.profile-image {
+  width: 100%;
+	margin-bottom: 45px
+}
+
+
+body {
+	background-color: lightgrey;
+}
+
+
+header ul {
+list-style: none;
+}
+
+header ul li {
+text-transform: uppercase;
+font-weight: bold;
+padding: 10px;
+margin: 7px 0;
+text-align: center;
+}
+
+#portfolio{
+margin-bottom: 20px;
+}
+
+main {
+padding-top: 40px;
+background-color: #eee;
+}
+
+.name{
+margin-top: 0.8em;
+}
+
+
+.banner{
+padding-bottom: 1em;
+margin-bottom: 1em;
+}
+
+
+
+.portfolio-image {
+max-width: 100%;
+}
+
+.info,
+.banner {
+padding-right: 2em;
+padding-left: 2em;
+}
+
+
+
+#portfolio,
+#contact {
+font-size: 1.2em;
+}
+
+#contact {
+margin-top: 3em;
+margin-bottom: 2em;
+text-transform: uppercase;
+}
+
+.contact-wrapper{
+padding: 20px;
+margin-bottom: 10px;
+}
+
+.col{
+padding-right: 8px;
+}
+
+footer .bottom-nav {
+  margin-bottom: 10px;
+}
+
+footer .bottom-nav {
+  margin-bottom: 10px;
+}
+
+footer .footer-name {
+  float: left;
+	padding-top: 1em;
+	margin-left: 10px;
+}
+
+footer .footer-backtotop {
+  float: right;
+	padding: 1em;
+}
+
+footer .footer-nav {
+  display: none;
+}
+
+.footer-text {
+padding-left: 0.7em;
+padding-right: 0.7em;
+}
+/* ---- Float clearfix ---- */
+
+	.clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
+
+/* =================================
+  Media Queries
+==================================== */
+
+@media (min-width: 768px) {
+
+header nav ul{
+margin: 20px;
+margin-bottom: 2.2em;
+text-align: center;
+}
+
+
+header nav ul li {
+display: inline;
+padding: 0;
+margin: 30px;
+}
+
+.name {
+margin: 1em 1.5em;
+}
+
+main {
+padding-left: 25px;
+padding-right: 25px;
+ }
+
+.col{
+float: left;
+width: 50%
+}
+
+.profile-image {
+width: 42%;
+float: right;
+margin-left: 1em;
+}
+
+
+.banner p{
+font-size: 1.2em;
+text-align: left;
+}
+
+#portfolio{
+padding-top: 20px;
+}
+
+#portfolio,
+#contact,
+.footer-name,
+.footer-nav {
+font-size: 0.8em;
+}
+
+
+footer .footer-backtotop {
+    display: none;
+  }
+
+footer .footer-nav {
+    float: right;
+		display: inline;
+		margin-right: 20px;
+  }
+
+  footer .footer-nav li {
+		float: left;
+		padding: 10px;
+    text-transform: uppercase;
+		list-style: none;
+    font-weight: bold;
+  }
+
+@media (min-width: 1024px) {
+
+header {
+padding: 50px;
+}
+.name{
+float: left;
+margin: 0;
+padding: 0;
+}
+
+header nav{
+float: right;
+margin-right: 10px;
+}
+
+header nav ul{
+margin-bottom: 0;
+text-align: center;
+}
+
+
+main {
+    margin: 0 15px;
+		padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+.col {
+      width: 33.333%;
+	    /* float: left; */
+	    margin: 0;
+	    margin-bottom: 40px;
+	    padding: 0 10px;
+	    margin-left: -1px;
+}
+
+
+.profile-image {
+width: 40%;
+float: right;
+margin-left: 3em;
+margin-right: 3em;
+}
+
+.banner {
+margin: 4em 0 0;
+padding: 0;
+font-size: 1.2em;
+}
+
+.banner p{
+padding: 0;
+text-align: left;
+}
+
+.footer-name{
+padding-left: 15px;
+}
+
+#portfolio,
+.footer-name,
+.footer-nav {
+font-size: 1em;
+}
+
+#contact{
+font-size: 1em;
+}
+
+}
