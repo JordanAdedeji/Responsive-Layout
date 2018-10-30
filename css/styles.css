@@ -1,6 +1,6 @@
 * {
 	box-sizing: border-box;
-	font-family: 'Varela Round', sans-serif;
+	font-family: 'Nunito', sans-serif;
 	line-height: 1.6;
 	color: #3a3a3a;
 	margin: 0;
@@ -23,9 +23,9 @@ h1 {
 }
 
 h2 {
-  margin-top: 40px;
+  margin-top: 30px;
+	margin-bottom: 10px;
   text-align: center;
-  font-size: 1.2em;
   font-weight:200;
   color: black;
 
@@ -71,6 +71,7 @@ background-color: #eee;
 
 .name{
 margin-top: 0.8em;
+font-family: 'Permanent Marker', cursive;
 }
 
 
@@ -91,10 +92,13 @@ padding-right: 2em;
 padding-left: 2em;
 }
 
-
+#skills{
+padding: 30px;
+}
 
 #portfolio,
-#contact {
+#contact,
+#skills {
 font-size: 1.2em;
 }
 
@@ -104,14 +108,33 @@ margin-bottom: 2em;
 text-transform: uppercase;
 }
 
-.contact-wrapper{
-padding: 20px;
-margin-bottom: 10px;
-}
 
 .col{
 padding-right: 8px;
 }
+
+
+ul.skills {
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.skills li {
+  border-radius: 6px;
+  display: inline-block;
+  background: #36ACD0;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+  font-weight: bold;
+  transition: 0.15s;
+}
+
+.skills li:hover {
+  transform: scale(1.05);
+  transition: 0.15s;
+}
+
 
 footer .bottom-nav {
   margin-bottom: 10px;
@@ -197,11 +220,9 @@ text-align: left;
 padding-top: 20px;
 }
 
-#portfolio,
-#contact,
 .footer-name,
 .footer-nav {
-font-size: 0.8em;
+font-size: 1em;
 }
 
 
@@ -254,7 +275,6 @@ main {
 
 .col {
       width: 33.333%;
-	    /* float: left; */
 	    margin: 0;
 	    margin-bottom: 40px;
 	    padding: 0 10px;
@@ -290,8 +310,9 @@ padding-left: 15px;
 font-size: 1em;
 }
 
-#contact{
+#contact,
+#skills {
 font-size: 1em;
 }
 
-}
+}}
